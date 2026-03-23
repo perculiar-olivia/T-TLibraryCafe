@@ -37,3 +37,23 @@ Month varchar (250),
 Year int,
 );
 
+CREATE TABLE sales(
+Sales_Id int,
+Book_Id int, 
+Order_Id int, 
+Store_Id int, 
+Date_Id int, 
+Customer_Id int, 
+Unit_Price int, 
+Quantity_Sold int,
+Total_Sold_Amount int, 
+);
+
+DROP TABLE date
+
+CREATE TABLE date(
+Date_Id int,
+Day int,
+Month int,
+Year int,
+);
